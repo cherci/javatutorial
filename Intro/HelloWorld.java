@@ -1,17 +1,18 @@
 package Intro; //ここは気にしないで
-/**@author morilynlol */
+/**@author Cherci */
 
 public class HelloWorld {
-
-	/**
-	 * @param args
-	 * This is the most basic program of Java. This just displays the message on the command prompt. Let's see what this is doing.
-	 * By the way, if you surround a text w/ slashes and asterisks, the computer ignores it. The surrounded part is called a "comment".
+	/*上の構文は、クラスと呼ばれるものを宣言する構文
+	 * Javaではクラスというものを宣言してその中でコードを書いていく
+	 * public - どこからでもアクセスしていいよという意味
+	 * class - クラスを宣言するという意味、このあとにクラスの名前と意味を書いていく
+	 * 
+	 * publicなクラスの名前ははファイル名（拡張子を除く）と同じにしないといけない
 	 */
 	public static void main(String[] args) {
-		System.out.println("Hello World!");		
-		//This outputs a message on the command prompt. 
-		//I bet you have no idea about the syntax but you are going to start learning about it in the next chapter!
+		//これはメソッド（method）と呼ばれるもので、クラスの中にメソッドを宣言して、その中に実際に何をするか書く。
+		System.out.println("Hello World!");		//この処理ではコマンドプロンプトに文字列を表示する。Javaでは命令の最後にはコロン（；）をつける必要があって, 文章はダブルクオーテーションの中に書く必要があるよ
+		
 	}
 
 }
